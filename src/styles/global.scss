@@ -1,0 +1,36 @@
+body{
+	background: $light-black;
+	color: $light-text;
+	font-family: 'Roboto', sans-serif;
+	font-size: $small-text-size;
+	font-weight: $small-text-weight;
+}
+
+p, span{
+	color: $light-text;
+	font-size: $small-text-size;
+	font-weight: $small-text-weight;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: $lightest-text;
+}
+
+h1{
+	font-size: $big-title-size;
+	font-weight: $big-title-weight;
+}
+
+h2{
+	font-size: $section-heading-size;
+	font-weight: $section-heading-weight;
+}
+
+h3{
+	font-size: $small-title-size;
+	font-weight: $small-title-weight;
+}
+
+a{
+	color: $green-highlight;
+}
