@@ -7,17 +7,16 @@ const Header = () => {
 		<header>
 			<div className="overlay"></div>
 			<div className="name">
-				<h1>ADRIEN SKRZYPCZAK</h1>
-				<div className="separator"></div>
-				<h2>SOFTWARE ENGINEER</h2>
+				<h1>Adrien Skrzypczak</h1>
+				<h2>Software Engineer</h2>
 			</div>
 			<div className="contacts">
 				<h3>You can also find me on</h3>
 				<div className="inner">
-					<FontAwesomeIcon icon={faGithub} />
-					<FontAwesomeIcon icon={faLinkedin} />
-					<FontAwesomeIcon icon={faItchIo} />
-					<FontAwesomeIcon icon={faHackerrank} />
+					<a href="https://github.com/Nadrielle" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+					<a href="https://www.linkedin.com/in/adrien-skrzypczak-87b114b8/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+					<a href="https://adrien-s.itch.io/" target="_blank"><FontAwesomeIcon icon={faItchIo} /></a>
+					<a href="https://www.hackerrank.com/adrien_sk" target="_blank"><FontAwesomeIcon icon={faHackerrank} /></a>
 				</div>
 			</div>
 		</header>

@@ -13,8 +13,8 @@ const IndexPage = () => {
 				<Welcome /> */}
 			<WorkProjects />
 			<SideProjects />
-			<GameDev />
-			<PixelArt />
+			{/* <GameDev />
+			<PixelArt /> */}
 		</Layout>
 	);
 }
