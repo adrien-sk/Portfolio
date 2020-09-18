@@ -114,6 +114,10 @@ a{
 			section{
 				width: 100%;
 				margin: 100px 0;
+
+				h4{
+					font-weight: 300;
+				}
 			}
 		}
 	}
@@ -123,6 +127,7 @@ a{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: 20px;
 
 	.project{
 		width: 31%;
