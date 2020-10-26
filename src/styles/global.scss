@@ -107,7 +107,7 @@ a{
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			width: 1000px;
+			width: 1140px;
 			max-width: 100%;
 			margin: auto;
 
@@ -126,12 +126,21 @@ a{
 .projects-container{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-top: 20px;
 
 	.project{
-		width: 31%;
+		width: 33.3%;
 		position: relative;
+		margin: 0 20px;
+
+		&:nth-child(3n+3){
+			margin-right: 0;
+		}
+
+		&:nth-child(3n+1){
+			margin-left: 0;
+		}
 		
 		.row > div { 
 			margin-bottom: 30px;

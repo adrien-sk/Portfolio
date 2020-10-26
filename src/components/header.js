@@ -8,7 +8,7 @@ const Header = () => {
 			<div className="overlay"></div>
 			<div className="name">
 				<h1>Adrien Skrzypczak</h1>
-				<h2>Software Engineer</h2>
+				<h2>Full-Stack Software Engineer</h2>
 			</div>
 			<div className="contacts">
 				<h3>You can also find me on</h3>

@@ -42,7 +42,7 @@ const WorkProjects = () =>{
 						<figcaption>
 							<h3>My portfolio</h3>
 							<p>This portfolio website</p>
-							<p><strong>Tags:</strong> <br />Gatsby, ReactJS, CSS</p>
+							<p><strong>Tags:</strong> <br />Gatsby, ReactJS, SASS</p>
 							<a href="#" target="_blank">View more</a>
 						</figcaption> 
 					</figure>
