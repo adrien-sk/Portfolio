@@ -1,20 +1,15 @@
 import React from "react";
-import GameDev from "../components/gamedev";
 import Layout from "../components/layout";
-import PixelArt from "../components/pixelart";
-import SideProjects from "../components/sideprojects";
 import Welcome from "../components/welcome";
-import WorkProjects from "../components/workprojects";
+import Projects from "../components/projects";
+import GameDev from "../components/gamedev";
 
 const IndexPage = () => {
 	return(
 		<Layout>
-			{/* Photo, presentation, ...
-				<Welcome /> */}
-			<WorkProjects />
-			<SideProjects />
-			{/* <GameDev />
-			<PixelArt /> */}
+			<Welcome />
+			<Projects />
+			{/* <GameDev /> */}
 		</Layout>
 	);
 }

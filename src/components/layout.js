@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './footer';
 import Header from './header';
 
-import '../styles/main.scss'
+import '../styles/site.scss'
 
 const Layout = (props) => {
 	return(
