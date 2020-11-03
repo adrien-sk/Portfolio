@@ -4,14 +4,17 @@ import profileImage from '../images/profile_image.svg';
 
 const Welcome = () =>{
 	return(
-		<section id="welcome" data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease" data-sal-duration="400">
+		<section id="welcome" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease" data-sal-duration="800">
 			<div className="inner">
 				<div class="profile-description">
-					<h3>I'm Adrien,</h3>
+					<h3>Hello, I'm Adrien,</h3>
 					<h3>a Full-Stack Software Engineer</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel sem at lorem laoreet iaculis sed commodo tortor. Proin tristique nunc vitae mi vestibulum, vel vestibulum tortor ornare. Aliquam rhoncus massa ac sem ultrices, eget dictum quam aliquet. Fusce ultricies aliquam metus, in lobortis mauris venenatis id. Aenean ullamcorper velit dolor, vitae commodo lacus lacinia vitae. Proin ullamcorper dictum porttitor.</p>
+					<p>I have 7 years of experience in different languages and platforms, but a longer affinity for Computer Science.</p>
+					<p>I'm working a lot with C# .Net for Web Apps, but also in Unity to work on Video Games on my free time.</p>
+					<p>Recently focusing on one of my first language : Javascript and it's friends (NodeJS, React, Redux, Next.JS, Express, ...)</p>
+					<p>I'm also having the chance to pursue a Master Degree and expand on my Computer Science knowledges.</p>
 				</div>
-				<img src={profileImage} alt="Profile Image"/>
+				<img src={profileImage} alt="Profile"/>
 			</div>
 		</section>
 	);
