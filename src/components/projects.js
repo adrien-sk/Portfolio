@@ -35,6 +35,8 @@ const Projects = () =>{
 								<li>Socket.IO</li>
 								<li>SASS</li>
 								<li>PostgreSQL</li>
+								<li>Knex</li>
+								<li>Redis</li>
 							</ul>
 							<div className="project-links">
 								<a href="https://github.com/Nadrielle/Discord-Web-Soundboard" target="_blank" className="git-link" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} aria-label="Visit" /></a>
