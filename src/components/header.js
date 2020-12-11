@@ -16,7 +16,7 @@ const Header = () => {
 					<a href="https://github.com/adrien-sk" target="_blank" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faGithub} data-sal="slide-down" data-sal-delay="700" data-sal-easing="ease" data-sal-duration="500"/>
 						</a>
-					<a href="https://www.linkedin.com/in/adrien-skrzypczak-87b114b8/" target="_blank" rel="noopener noreferrer">
+					<a href="https://www.linkedin.com/in/adrien-skrzypczak/" target="_blank" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faLinkedin} data-sal="slide-down" data-sal-delay="800" data-sal-easing="ease" data-sal-duration="500"/>
 						</a>
 					<a href="https://adrien-s.itch.io/" target="_blank" rel="noopener noreferrer">
