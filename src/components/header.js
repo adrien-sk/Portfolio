@@ -13,7 +13,7 @@ const Header = () => {
 			<div className="contacts">
 				<h3 data-sal="fade" data-sal-delay="600" data-sal-easing="ease" data-sal-duration="500">You can also find me on</h3>
 				<div className="inner">
-					<a href="https://github.com/Nadrielle" target="_blank" rel="noopener noreferrer">
+					<a href="https://github.com/adrien-sk" target="_blank" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faGithub} data-sal="slide-down" data-sal-delay="700" data-sal-easing="ease" data-sal-duration="500"/>
 						</a>
 					<a href="https://www.linkedin.com/in/adrien-skrzypczak-87b114b8/" target="_blank" rel="noopener noreferrer">

@@ -17,7 +17,7 @@ const Projects = () =>{
 				<div className="projects-container">
 					<div className="project">
 						<div className="project-image" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease" data-sal-duration="600">
-							<a href="https://github.com/Nadrielle/Discord-Web-Soundboard" target="_blank" rel="noopener noreferrer">
+							<a href="https://github.com/adrien-sk/Discord-Web-Soundboard" target="_blank" rel="noopener noreferrer">
 								<img src={soundboardThumb} alt="Discord Soundboard" />
 							</a>
 						</div>
@@ -39,14 +39,14 @@ const Projects = () =>{
 								<li>Redis</li>
 							</ul>
 							<div className="project-links">
-								<a href="https://github.com/Nadrielle/Discord-Web-Soundboard" target="_blank" className="git-link" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} aria-label="Visit" /></a>
+								<a href="https://github.com/adrien-sk/Discord-Web-Soundboard" target="_blank" className="git-link" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} aria-label="Visit" /></a>
 							</div>
 						</div>
 					</div>
 
 					<div className="project">
 						<div className="project-image" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease" data-sal-duration="600">
-							<a href="https://github.com/Nadrielle/Battleships" target="_blank" rel="noopener noreferrer">
+							<a href="https://github.com/adrien-sk/Battleships" target="_blank" rel="noopener noreferrer">
 								<img src={battleshipsThumb} alt="Battleships" />
 							</a>
 						</div>
@@ -62,7 +62,7 @@ const Projects = () =>{
 							</ul>
 							<div className="project-links">
 								<a href="https://adrien-s-battleships.netlify.app/" target="_blank" className="site-link" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} aria-label="Visit" /></a>
-								<a href="https://github.com/Nadrielle/Battleships" target="_blank" className="git-link" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} aria-label="Visit" /></a>
+								<a href="https://github.com/adrien-sk/Battleships" target="_blank" className="git-link" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} aria-label="Visit" /></a>
 							</div>
 						</div>
 					</div>
