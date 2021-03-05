@@ -19,6 +19,18 @@ module.exports = {
 				path: `${__dirname}/src/images`,
 			}
 		},
-		`gatsby-plugin-scroll-reveal`
+		`gatsby-plugin-scroll-reveal`,
+		{
+			resolve: 'gatsby-plugin-manifest',
+			options: {
+				name: `adrien-s.dev`,
+				short_name: `adrien-s.dev`,
+				start_url: `/`,
+				background_color: `#3CA370`,
+				theme_color: `#3CA370`,
+				display: `standalone`,
+				icon: `static/favicon.png`,
+			}
+		}
 	],
 }
